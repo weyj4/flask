@@ -1,13 +1,13 @@
-import nltk
-import operator
-import os
-import re
-import requests
+##import nltk
+##import operator
+##import os
+##import re
+##import requests
 from flask import Flask, render_template, request
 from flask.ext.sqlalchemy import SQLAlchemy
-from stop_words import stops
-from collections import Counter
-from bs4 import BeautifulSoup
+##from stop_words import stops
+##from collections import Counter
+##from bs4 import BeautifulSoup
 
 app = Flask(__name__)
 app.config.from_object(os.environ['APP_SETTINGS'])
